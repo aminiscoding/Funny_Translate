@@ -8,7 +8,7 @@ for i in range(n):
 phrase = input("What phrase do you want to translate:").split()
 
 trans = []
-#
+
 for i in phrase:
     if i in dic:
         trans.append(dic[i])
